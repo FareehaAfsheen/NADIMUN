@@ -329,9 +329,9 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 60px;
 }
-/* .Secretariat-grid .committee-card:last-child {
+.Secretariat-grid .committee-card:last-child {
   grid-column: 2 / 3;
-} */
+}
 
 /* @media (max-width: 768px) {
   .about-container {
