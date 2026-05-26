@@ -415,22 +415,7 @@ main {
   color: #ffffff;
   text-decoration: none;
 }
-@media (max-width: 768px) {
-  .about-container {
-    flex-direction: column;
-  }
-  .committees-grid {
-    grid-template-columns: 1fr;
-  }
-  .Secretariat-grid {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-  }
-  
-  .contact-grid {
-    grid-template-columns: 1fr;
-  }
-}
+
 footer {
   background-color: #0a0f1e;
   padding: 60px 20px;
@@ -475,4 +460,19 @@ footer {
 a.contact-info:hover {
   color: #ffffff;
   text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .committees-grid {
+    grid-template-columns: 1fr;
+  }
+  .Secretariat-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
 }
