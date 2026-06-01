@@ -326,9 +326,10 @@ main {
 .Secretariat-grid {
   display: grid;
   gap: 32px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   padding: 0 40px;
 }
+
 .Secretariat-grid .committee-card:last-child {
   grid-column: 2 / 3;
 }
@@ -462,16 +463,23 @@ a.contact-info:hover {
   text-decoration: underline;
 }
 @media (max-width: 768px) {
-  .about-container {
-    flex-direction: column;
-  }
-  .committees-grid {
-    grid-template-columns: 1fr;
-  }
   .Secretariat-grid {
     grid-template-columns: 1fr;
     padding: 0 20px;
   }
+
+  .Secretariat-grid .committee-card:last-child {
+    grid-column: auto;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .committees-grid {
+    grid-template-columns: 1fr;
+  }
+
   .contact-grid {
     grid-template-columns: 1fr;
   }
