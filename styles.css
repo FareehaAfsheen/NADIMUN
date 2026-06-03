@@ -433,6 +433,16 @@ a.contact-info:hover {
   font-size: 13px;
   letter-spacing: 1px;
 }
+.fa-instagram {
+  font-size: 15px;
+  color: #2ABFBF;
+  padding: 6px;
+}
+.fa-phone {
+  font-size: 15px;
+  color: #2ABFBF;
+  ;
+}
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
