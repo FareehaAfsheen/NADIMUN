@@ -451,6 +451,9 @@ a.contact-info:hover {
   .committees-grid {
     grid-template-columns: 1fr;
   }
+  .committees-grid .committee-card:last-child {
+    grid-column: auto;
+  }
 
   .Secretariat-grid {
     grid-template-columns: 1fr;
