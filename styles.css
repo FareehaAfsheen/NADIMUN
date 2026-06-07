@@ -10,8 +10,8 @@ body {
 }
 main {
   max-width: 1000px;
-  margin: 0 auto;    /* ← this must be here to center the container */
-  padding: 60px 20px;
+  margin: 0 auto;
+  padding: 130px 20px 60px 20px;
 }
 .text-white {
   font-family: 'Playfair Display', serif;
